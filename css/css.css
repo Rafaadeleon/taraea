@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+body{
+    font-size: 10px;
+    background-color: #FBFFE8; 
+}
+section{
+    width: 100%;
+    height: auto;
+}
+
+.section{
+    width: 130em;
+    height: auto;
+    margin: auto;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+footer{
+    background-color: #FFC300;
+    height:65px;
+    width: 100%;
+    font-size: 20px;
+}
+.yo{
+    position: absolute;
+    margin-top:20px;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 80px;
+    
+}
+.img_face{
+ 
+    width: 40px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 220px;
+}
+
+.el{
+    position: absolute;
+    margin-top:20px;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 80px;   
+}
+.img_insta{
+    width: 40px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 239px;
+}
+
+
+/****************************************
+#       CONFIGURACION RESPONSIVE        *
+****************************************/
+
+@media only screen and (max-width:1440px) {
+
+    body{
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width:1366px) {
+    body{
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    body{
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    body{
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+}
+
+@media only screen and (max-width:320px) {}
